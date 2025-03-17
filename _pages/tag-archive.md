@@ -1,6 +1,6 @@
 ---
-title: "테그"
-layout: tags
+title: "태그"
+layout: 태그
 permalink: /tags/
 author_profile: true
 sidebar_main: true
