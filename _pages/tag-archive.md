@@ -1,5 +1,5 @@
 ---
-title: "tag"
+title: "테그"
 layout: tags
 permalink: /tags/
 author_profile: true
