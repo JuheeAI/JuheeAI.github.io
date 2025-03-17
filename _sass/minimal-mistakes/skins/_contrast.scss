@@ -14,22 +14,22 @@ $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 /* contrast syntax highlighting (base16) */
-$base00: #f6e9c5 !default;
-$base01: #f0e0b7 !default;
-$base02: #e1d0a9 !default;
-$base03: #d1c28d !default;
-$base04: #a99e79 !default;
-$base05: #4b4a42 !default;
-$base06: #8e8c74 !default;
-$base07: #a8a47a !default;
-$base08: #ff6c60 !default;
-$base09: #e9c062 !default;
-$base0a: #ffffb6 !default;
-$base0b: #a8ff60 !default;
-$base0c: #c6c5fe !default;
-$base0d: #96cbfe !default;
-$base0e: #ff73fd !default;
-$base0f: #b18a3d !default;
+$base00: #2e3440 !default; /* Background - dark */
+$base01: #3b4252 !default; /* Darker background */
+$base02: #434c5e !default; /* Slightly lighter background */
+$base03: #4c566a !default; /* Light background shade */
+$base04: #d8dee9 !default; /* Light text color */
+$base05: #e5e9f0 !default; /* Slightly darker text */
+$base06: #eceff4 !default; /* Text color - light */
+$base07: #ffffff !default; /* White - highlights */
+$base08: #bf616a !default; /* Red - Errors, Warnings */
+$base09: #d08770 !default; /* Orange - Keywords */
+$base0a: #ebcb8b !default; /* Yellow - Strings */
+$base0b: #a3be8c !default; /* Green - Functions, Variables */
+$base0c: #88c0d0 !default; /* Cyan - Syntax highlights */
+$base0d: #81a1c1 !default; /* Blue - Links, Attributes */
+$base0e: #b48ead !default; /* Purple - Types */
+$base0f: #ab7967 !default; /* Brown - Miscellaneous */
 
 .page__content {
   .notice,
