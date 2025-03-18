@@ -148,6 +148,7 @@ button:focus {
 
 /* code */
 
+/* 기존 코드 */
 tt,
 code,
 kbd,
@@ -157,7 +158,27 @@ pre {
 }
 
 pre {
-  overflow-x: auto; /* add scrollbars to wide code blocks*/
+  overflow-x: auto; /* add scrollbars to wide code blocks */
+}
+
+/* 수정된 코드 */
+p,
+ul,
+ol,
+figure {
+  font-family: inherit;  /* 본문 내용에는 코드 스타일을 적용하지 않도록 */
+}
+
+/* 기존의 `code`와 `pre` 스타일은 그대로 두되, 본문에서 이를 사용하지 않도록 */
+pre {
+  background-color: transparent; /* 코드 블록 스타일을 없애고 배경을 투명하게 */
+  font-family: inherit; /* 본문과 동일한 폰트로 설정 */
+  color: inherit; /* 본문과 동일한 색상으로 설정 */
+}
+
+code {
+  font-family: inherit; /* 본문과 동일한 폰트로 설정 */
+  color: inherit; /* 본문과 동일한 색상으로 설정 */
 }
 
 /* horizontal rule */
