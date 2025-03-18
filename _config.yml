@@ -23,6 +23,7 @@ subtitle                 : "subtitle"
 name                     : "손주희"
 description              : "반갑습니다 주희의 블로그입니다"
 url                      : "https://JuheeAI.github.io"
+favicon                  : /favicon.ico
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
